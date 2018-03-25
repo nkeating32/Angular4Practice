@@ -13,6 +13,7 @@ import { LikeComponent } from './like/like.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { CourseFormComponent } from './course-form/course-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { FormArrayComponent } from './form-array/form-array.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
     LikeComponent,
     ZippyComponent,
     CourseFormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    FormArrayComponent
   ],
   imports: [
     BrowserModule,
