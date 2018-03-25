@@ -1,0 +1,13 @@
+.glyphicon {
+    color:#ccc;
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.highlighted {
+    color:deeppink;
+}
+
+.number {
+    font-size: 12px;
+}
