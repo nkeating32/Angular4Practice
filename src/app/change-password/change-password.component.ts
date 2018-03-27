@@ -22,10 +22,6 @@ export class ChangePasswordComponent{
     }, ChangePasswordValidators.passwordsShouldMatch)
   })
 
-  confirm() {
-    console.log(form)
-  }
-
 
   get oldpassword() { return this.form.get('account.oldpassword')} 
 
